@@ -19,6 +19,7 @@ A simple quiz application built using basic concepts of React like hooks and con
     ```bash
     npm install
 3. Start the App
+    ```bash
     npm start
 
 ## Usage 

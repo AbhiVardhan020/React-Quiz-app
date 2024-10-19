@@ -104,7 +104,7 @@ function App() {
                     <path fill="#D4A373" d="M47.5,-17.6C54.6,6.3,48.5,32.4,32,44.6C15.4,56.8,-11.7,55.1,-28.7,42.1C-45.8,29.1,-52.8,4.9,-46.3,-18.3C-39.8,-41.4,-19.9,-63.5,0.1,-63.5C20.2,-63.6,40.4,-41.6,47.5,-17.6Z" transform="translate(100 100)" />
                   </svg>
                 </div>
-                  <h1 className='score'>Your score : {score()}</h1>
+                  <h1 className='score'>Your score : {score()}/5</h1>
                   <button onClick={()=>checkAnswers()}>Check answers</button>
                   <button onClick={()=>reset()}>Play again</button>
                   {score()==5 && <Confetti />}
